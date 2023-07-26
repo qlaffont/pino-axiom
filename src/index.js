@@ -10,14 +10,32 @@ module.exports = function (opts) {
     orgId: opts?.orgId,
   });
 
+  let toSend = [];
+  let immediate = null;
+
+  function send() {
+    client.ingestEvents(opts?.dataset || '', toSend).catch(() => {});
+    toSend = [];
+    immediate = null;
+  }
+
   return build(
     function (source) {
-      source.on('data', async function (obj) {
-        await client.ingestEvents(opts?.dataset || '', obj);
+      source.on('data', function (obj) {
+        toSend.push(obj);
+        if (!immediate) {
+          immediate = setImmediate(send);
+        }
       });
     },
     {
       parseLine: (line) => ({ ...JSON.parse(line) }),
+      async close() {
+        if (toSend.length > 0) {
+          clearImmediate(immediate);
+          await client.ingestEvents(opts?.dataset || '', toSend);
+        }
+      },
     },
   );
 };
