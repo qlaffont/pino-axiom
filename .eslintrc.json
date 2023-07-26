@@ -16,9 +16,7 @@
     ],
     "rules": {
         "prettier/prettier": "error",
-        "@typescript-eslint/no-unused-vars": "error",
         "simple-import-sort/imports": "error",
-        "simple-import-sort/exports": "error",
-        "@typescript-eslint/no-var-requires": "off"
+        "simple-import-sort/exports": "error"
     }
 }

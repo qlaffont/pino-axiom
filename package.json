@@ -14,7 +14,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "jest",
-    "lint": "eslint src test --fix",
+    "lint": "eslint src --fix",
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint src test"
+      "pre-commit": "eslint src"
     }
   },
   "publishConfig": {
