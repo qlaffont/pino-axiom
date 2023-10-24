@@ -76,7 +76,7 @@
     "jest-environment-jsdom": "^29.5.0",
     "np": "8.0.4",
     "prettier": "3.0.3",
-    "size-limit": "9.0.0",
+    "size-limit": "10.0.1",
     "ts-jest": "^29.1.0",
     "tsdx": "0.14.1",
     "tslib": "2.6.2",
