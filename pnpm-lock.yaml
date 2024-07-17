@@ -52,8 +52,8 @@ importers:
         specifier: 12.1.1
         version: 12.1.1(eslint@8.57.0)
       husky:
-        specifier: 9.0.11
-        version: 9.0.11
+        specifier: 9.1.0
+        version: 9.1.0
       jest:
         specifier: ^29.5.0
         version: 29.7.0(@types/node@20.14.11)
@@ -2950,8 +2950,8 @@ packages:
   humanize-duration@3.31.0:
     resolution: {integrity: sha512-fRrehgBG26NNZysRlTq1S+HPtDpp3u+Jzdc/d5A4cEzOD86YLAkDaJyJg8krSdCi7CJ+s7ht3fwRj8Dl+Btd0w==}
 
-  husky@9.0.11:
-    resolution: {integrity: sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==}
+  husky@9.1.0:
+    resolution: {integrity: sha512-8XCjbomYTGdNF2h50dio3T3zghmZ9f/ZNzr99YwSkvDdhEjJGs5qzy8tbFx+SG8yCx2wn9nMVfZxVrr/yT8gNQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -9118,7 +9118,7 @@ snapshots:
 
   humanize-duration@3.31.0: {}
 
-  husky@9.0.11: {}
+  husky@9.1.0: {}
 
   iconv-lite@0.4.24:
     dependencies:
