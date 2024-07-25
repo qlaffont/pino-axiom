@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.211 (2024-07-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency pino to v9.3.2 ([ab310e7](https://github.com/qlaffont/pino-axiom/commit/ab310e7f8c1ec8642e32e640df92e852809c3df4))
+
 ### 1.0.210 (2024-07-25)
 
 ### 1.0.209 (2024-07-23)
