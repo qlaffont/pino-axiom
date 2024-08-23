@@ -79,7 +79,7 @@
     "size-limit": "11.1.4",
     "ts-jest": "^29.1.0",
     "tsdx": "0.14.1",
-    "tslib": "2.6.3",
+    "tslib": "2.7.0",
     "typescript": "5.5.4"
   },
   "dependencies": {
