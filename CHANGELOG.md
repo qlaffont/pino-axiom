@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.235 (2024-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency pino-abstract-transport to v2 ([33335b3](https://github.com/qlaffont/pino-axiom/commit/33335b38705d4bb8461694bd26f673dd0bcfc883))
+
 ### 1.0.234 (2024-09-03)
 
 
