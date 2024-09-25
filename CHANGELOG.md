@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.248 (2024-09-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/node to v20.16.7 ([3df2684](https://github.com/qlaffont/pino-axiom/commit/3df2684dd8484a59accf2fcb7cc122f85a64bdb6))
+
 ### 1.0.247 (2024-09-24)
 
 
