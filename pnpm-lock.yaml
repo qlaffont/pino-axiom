@@ -47,7 +47,7 @@ importers:
         version: 2.31.0(@typescript-eslint/parser@8.25.0(eslint@8.57.1)(typescript@5.8.2))(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: 5.2.3
-        version: 5.2.3(eslint-config-prettier@10.0.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.2)
+        version: 5.2.3(eslint-config-prettier@10.0.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.3)
       eslint-plugin-simple-import-sort:
         specifier: 12.1.1
         version: 12.1.1(eslint@8.57.1)
@@ -64,8 +64,8 @@ importers:
         specifier: 10.2.0
         version: 10.2.0(@types/node@22.13.8)(typescript@5.8.2)
       prettier:
-        specifier: 3.5.2
-        version: 3.5.2
+        specifier: 3.5.3
+        version: 3.5.3
       size-limit:
         specifier: 11.2.0
         version: 11.2.0
@@ -4347,8 +4347,8 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  prettier@3.5.2:
-    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -8469,10 +8469,10 @@ snapshots:
     optionalDependencies:
       eslint-config-prettier: 6.15.0(eslint@6.8.0)
 
-  eslint-plugin-prettier@5.2.3(eslint-config-prettier@10.0.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.2):
+  eslint-plugin-prettier@5.2.3(eslint-config-prettier@10.0.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.5.3):
     dependencies:
       eslint: 8.57.1
-      prettier: 3.5.2
+      prettier: 3.5.3
       prettier-linter-helpers: 1.0.0
       synckit: 0.9.1
     optionalDependencies:
@@ -11000,7 +11000,7 @@ snapshots:
 
   prettier@1.19.1: {}
 
-  prettier@3.5.2: {}
+  prettier@3.5.3: {}
 
   pretty-format@25.5.0:
     dependencies:
